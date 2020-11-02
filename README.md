@@ -1,15 +1,10 @@
 # vue3_ts_cli
 
-## icon
+> 参考自[vben](https://github.com/anncwb/vue-vben-admin)
 
-- 使用 antd/icon + remixicon 组件库
-- remixicon 封装在@com/Icon。进行统一配置，使用
-- 官网 ：[https://remixicon.com/](https://remixicon.com/)，用于 icon 查询。
+## 简介
 
-## 文档
-
-- [vue3 中文文档](https://vue-docs-next-zh-cn.netlify.app/)
-- [antdv2.0 文档](https://2x.antdv.com/docs/vue/introduce-cn/)
+- 本项目基于 webpack+vue3+ts+antdv 进行构建的精简型脚手架。
 
 ## git 提交规范
 
@@ -25,15 +20,3 @@
 - test：新增测试用例或是更新现有测试
 - revert：回滚某个更早之前的提交
 - chore：不属于以上类型的其他类型
-
-## 代码规范
-
-```bash
-- 文件夹：全小写 demo
-- 文件：小写驼峰 demoFile.ts
-- 变量/常量：小写驼峰 let demoArr = []
-- store.mutation:全大写 ADDCOUNT
-- store.action:小写驼峰 addCount
-- 全局样式：使用横杠连接 global-style:{}
-- 局部样式：使用下划线连接 local_style:{}
-```
